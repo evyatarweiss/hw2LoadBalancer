@@ -1,0 +1,8 @@
+﻿namespace Traffic_ManagerHW2.Controllers.Constants
+{
+    public class ErrorConstants
+    {
+        public const string InvalidRequestDequeue = "top has to be atleast one";
+        public const string InvalidRequestEnqueue = "Invalid Input , number of iterations has to be atleast one and request body has to be a string";
+    }
+}
